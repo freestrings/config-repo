@@ -1,0 +1,4 @@
+foo.value: FOO-value
+nginx:
+    server:
+        name: foo.fs.com
