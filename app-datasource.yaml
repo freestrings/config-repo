@@ -1,0 +1,17 @@
+fs:
+  datasource:
+    master:
+      url: jdbc:mysql://localhost:3308/test?useUnicode=true&characterEncoding=utf8
+      username: root
+      password: root
+      driver-class-name: com.mysql.jdbc.Driver
+    slave:
+      url: jdbc:mysql://localhost:3309/test?useUnicode=true&characterEncoding=utf8
+      username: root
+      password: root
+      driver-class-name: com.mysql.jdbc.Driver
+    theother:
+      url: jdbc:mysql://localhost:3310/test?useUnicode=true&characterEncoding=utf8
+      username: root
+      password: root
+      driver-class-name: com.mysql.jdbc.Driver
